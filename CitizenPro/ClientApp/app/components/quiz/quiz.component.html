@@ -3,11 +3,11 @@
     <ul>
         <li>
             <label>Title:</label>
-            <input [(ngModel)]="quiz.Title" placeholder="Insert thetitle..." />
+            <input (ngModel)="quiz.Title" placeholder="Insert thetitle..." />
         </li>
         <li>
             <label>Description:</label>
-            <textarea [(ngModel)]=" quiz.Description"
+            <textarea (ngModel)=" quiz.Description"
             placeholder="Insert a suitable description..."></textarea>
         </li>
     </ul>
